@@ -1,0 +1,114 @@
+// .aboutMainDiv {
+//   height: 100vh;
+//   width: 100vw;
+//   background: url(./../pics/bg.1.jpeg);
+//   background-size: cover;
+// }
+// .aboutDiv1 {
+//   display: flex;
+//   justify-content: flex-end;
+//   //   border: 1px solid green;
+//   flex-wrap: initial;
+//   margin-top: 20vh;
+//   width: 100vw;
+
+//   h1 {
+//     margin-right: 10vw;
+//     font-family: "Courier New", Courier, monospace;
+//     font-size: 400%;
+//     color: rgba(255, 255, 255, 0.904);
+//     font-weight: 300;
+//   }
+// }
+@media (max-width: 800px) {
+  .aboutMainDiv {
+    background: url("../pics/skillsBackground.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+    // margin-top: -5%;
+    // top: 0;
+  }
+  .aboutDiv1 {
+    height: 100%;
+    display: flex;
+    // justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    // align-content: center;
+    font-family: "Courier New", Courier, monospace;
+    color: rgb(58, 58, 58);
+    h1 {
+      font-family: "Courier New", Courier, monospace;
+    }
+    p {
+      height: 0%;
+      width: 90%;
+      border: 1px solid rgb(56, 56, 56);
+      margin: -2%;
+      margin-bottom: 5%;
+    }
+    .aboutDiv2 {
+      background: rgba(255, 255, 255, 0.582);
+      height: 60%;
+      width: 80%;
+      h2 {
+        margin: 5%;
+        display: flex;
+        font-size: 108%;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+      }
+    }
+    // border: 1px solid red;
+  }
+}
+@media (min-width: 800px) {
+  .aboutMainDiv {
+    background: url("../pics/skillsBackground.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    border: 10px solid red;
+
+    // margin-top: -5%;
+    // top: 0;
+  }
+  .aboutDiv1 {
+    border: 10px solid green;
+    height: 80%;
+    display: flex;
+    // justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    // align-content: center;
+    font-family: "Courier New", Courier, monospace;
+    color: rgb(58, 58, 58);
+    h1 {
+      font-family: "Courier New", Courier, monospace;
+    }
+    p {
+      height: 0%;
+      width: 90%;
+      border: 1px solid rgb(56, 56, 56);
+      margin: -2%;
+      margin-bottom: 5%;
+    }
+    .aboutDiv2 {
+      background: rgba(255, 255, 255, 0.582);
+      height: 60%;
+      width: 80%;
+      h2 {
+        margin: 5%;
+        display: flex;
+        font-size: 108%;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+      }
+    }
+    // border: 1px solid red;
+  }
+}

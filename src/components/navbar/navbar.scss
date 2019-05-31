@@ -1,0 +1,35 @@
+@media (min-width: 800px) {
+  .navbar {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    button {
+      font-family: "Courier New", Courier, monospace;
+      font-weight: 700;
+      height: 10vh;
+      border: none;
+      width: 19vw;
+      background: none;
+      font-size: 30px;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    width: 100%;
+    // background-color: yellow;
+    height: 7vh;
+    // border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,56 @@
+@media (max-width: 800px) {
+  .skillsMainDiv {
+    // border: 2px solid red;
+    background: url("../pics/bg3.jpg");
+    background-size: cover;
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .skillsDiv1 {
+    background: rgba(47, 47, 47, 0.705);
+    // border: 3px solid rgb(8, 255, 8);
+    height: 90%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+  }
+  .skillsDiv2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    // border: 2px solid red;
+    width: 90px;
+
+    img {
+      height: 70px;
+    }
+    h1 {
+      font-size: 15px;
+      font-weight: 530;
+      font-family: "Courier New", Courier, monospace;
+      color: white;
+      text-align: center;
+    }
+    h2 {
+      font-size: 15px;
+      font-weight: 548;
+      text-align: center;
+      font-family: "Courier New", Courier, monospace;
+      color: white;
+    }
+  }
+  .appPic {
+    height: 12%;
+    margin: 3px;
+  }
+}
